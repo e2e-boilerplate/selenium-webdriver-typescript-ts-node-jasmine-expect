@@ -4,7 +4,7 @@
   "description": "selenium-webdriver end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, and jasmine.",
   "devDependencies": {
     "@types/jasmine": "3.4.4",
-    "@types/node": "12.12.3",
+    "@types/node": "12.12.25",
     "@types/selenium-webdriver": "4.0.6",
     "chromedriver": "79.0.0",
     "husky": "4.0.10",
