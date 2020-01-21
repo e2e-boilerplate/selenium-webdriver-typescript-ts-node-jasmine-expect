@@ -1,12 +1,21 @@
 import { Builder, By, Key, until } from "selenium-webdriver";
+import chrome from "selenium-webdriver/chrome";
 
 import "chromedriver";
+
+const baseOptions = new chrome.Options();
+const chromeOptions = process.env.GITHUB_ACTIONS
+  ? baseOptions.headless()
+  : baseOptions;
 
 describe("google Search", () => {
   let browser: any;
 
   beforeAll(async () => {
-    browser = await new Builder().forBrowser("chrome").build();
+    browser = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(chromeOptions)
+      .build();
     browser.get("https://www.google.com");
   });
 
