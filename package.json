@@ -19,9 +19,9 @@
     "typescript": "3.6.4"
   },
   "scripts": {
-    "test": "npx jasmine",
+    "pretty": "prettier --no-config './spec/*.ts' --write",
     "lint": "tslint -c tslint.json './spec/*.ts'",
-    "pretty": "prettier --no-config './spec/*.ts' --write"
+    "test": "npx jasmine"
   },
   "keywords": [
     "selenium-webdriver",

@@ -1,4 +1,4 @@
-name: NodeCI
+name: selenium-webdriver-es6modules-typescript-tsnode-jasmine
 
 on: [push]
 
@@ -13,11 +13,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: npm install
+    - name: INSTALL
       run: |
         npm ci
       env:
         CI: true
-    - name: npm test
+    - name: LINT, TEST
       run: |
+        npm run lint
         npm run test
