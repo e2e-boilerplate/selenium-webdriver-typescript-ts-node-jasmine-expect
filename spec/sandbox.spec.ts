@@ -15,7 +15,7 @@ describe("Sandbox", () => {
       .setChromeOptions(chromeOptions)
       .build();
     await browser.get("https://e2e-boilerplates.github.io/sandbox/");
-  });
+  }, 20000);
 
   afterAll(() => {
     browser.quit();
