@@ -9,7 +9,7 @@
     "chromedriver": "79.0.2",
     "husky": "4.2.1",
     "jasmine": "3.5.0",
-    "lint-staged": "10.0.4",
+    "lint-staged": "10.0.5",
     "prettier": "1.19.1",
     "puppeteer": "2.1.0",
     "selenium-webdriver": "4.0.0-alpha.5",
