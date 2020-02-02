@@ -1,9 +1,9 @@
-name: selenium-webdriver-es6modules-typescript-tsnode-jasmine
+name: selenium-webdriver-typescript-ts-node-jasmine-expect
 
-on: 
+on:
   push:
   schedule:
-    - cron: '0 0 1-31/2 * *' 
+    - cron: '0 0 1-31/2 * *'
 
 jobs:
   build:
@@ -21,7 +21,9 @@ jobs:
         npm ci
       env:
         CI: true
-    - name: LINT, TEST
+    - name: LINT
       run: |
         npm run lint
+    - name: TEST
+      run: |
         npm run test
