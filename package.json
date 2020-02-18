@@ -1,7 +1,7 @@
 {
-  "name": "selenium-webdriver-es6modules-typescript-tsnode-jasmine",
+  "name": "selenium-webdriver-typescript-ts-node-jasmine",
   "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, and jasmine.",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, TypeScript, Jasmine and Expect.",
   "devDependencies": {
     "@types/jasmine": "3.5.4",
     "@types/node": "12.12.27",
@@ -11,7 +11,6 @@
     "jasmine": "3.5.0",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
-    "puppeteer": "2.1.1",
     "selenium-webdriver": "4.0.0-alpha.5",
     "ts-node": "8.6.2",
     "tslint": "5.20.1",
@@ -25,12 +24,13 @@
   },
   "keywords": [
     "selenium-webdriver",
-    "es6modules",
     "typescript",
     "ts-node",
     "jasmine",
     "boilerplate",
-    "example"
+    "example",
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
