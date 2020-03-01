@@ -1,12 +1,12 @@
 {
-  "name": "selenium-webdriver-typescript-ts-node-jasmine",
-  "version": "1.0.0",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, TypeScript, Jasmine and Expect.",
   "devDependencies": {
     "@types/jasmine": "3.5.7",
     "@types/node": "12.12.29",
     "@types/selenium-webdriver": "4.0.8",
     "chromedriver": "79.0.3",
+    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "jasmine": "3.5.0",
     "lint-staged": "10.0.8",
@@ -17,32 +17,41 @@
     "tslint-config-prettier": "1.18.0",
     "typescript": "3.8.3"
   },
-  "scripts": {
-    "pretty": "prettier --no-config './spec/*.ts' --write",
-    "lint": "tslint -c tslint.json './spec/*.ts'",
-    "test": "npx jasmine"
-  },
-  "keywords": [
-    "selenium-webdriver",
-    "typescript",
-    "ts-node",
-    "jasmine",
-    "boilerplate",
-    "example",
-    "e2e",
-    "e2e test"
-  ],
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
+  "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "jasmine",
+    "selenium",
+    "selenium-webdriver",
+    "ts-node",
+    "typescript",
+    "webdriver"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,js,css,json,md}": [
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "name": "selenium-webdriver-typescript-ts-node-jasmine-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-typescript-ts-node-jasmine-expect.git"
+  },
+  "scripts": {
+    "pretty": "prettier --no-config './spec/*.ts' --write",
+    "lint": "tslint -c tslint.json './spec/*.ts'",
+    "test": "npx jasmine"
+  },
+  "version": "1.0.0"
 }
