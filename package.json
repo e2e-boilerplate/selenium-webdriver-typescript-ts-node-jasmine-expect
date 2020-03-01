@@ -6,7 +6,6 @@
     "@types/node": "12.12.29",
     "@types/selenium-webdriver": "4.0.8",
     "chromedriver": "79.0.3",
-    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "jasmine": "3.5.0",
     "lint-staged": "10.0.8",
@@ -53,5 +52,6 @@
     "lint": "tslint -c tslint.json './spec/*.ts'",
     "test": "npx jasmine"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {}
 }
