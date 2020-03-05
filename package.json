@@ -10,7 +10,7 @@
     "jasmine": "3.5.0",
     "lint-staged": "10.0.8",
     "prettier": "1.19.1",
-    "selenium-webdriver": "4.0.0-alpha.5",
+    "selenium-webdriver": "4.0.0-alpha.6",
     "ts-node": "8.6.2",
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
