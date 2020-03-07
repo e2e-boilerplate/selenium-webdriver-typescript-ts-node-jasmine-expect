@@ -1,5 +1,6 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
+  "dependencies": {},
   "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules, TypeScript, Jasmine and Expect.",
   "devDependencies": {
     "@types/jasmine": "3.5.8",
@@ -22,12 +23,7 @@
     }
   },
   "keywords": [
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
     "expect",
-    "integration test",
     "jasmine",
     "selenium",
     "selenium-webdriver",
@@ -52,6 +48,5 @@
     "lint": "tslint -c tslint.json './spec/*.ts'",
     "test": "npx jasmine"
   },
-  "version": "1.0.0",
-  "dependencies": {}
+  "version": "1.0.0"
 }
