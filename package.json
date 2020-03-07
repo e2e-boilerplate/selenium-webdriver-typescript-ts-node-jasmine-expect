@@ -44,8 +44,8 @@
     "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-typescript-ts-node-jasmine-expect.git"
   },
   "scripts": {
-    "pretty": "prettier --no-config './spec/*.ts' --write",
     "lint": "tslint -c tslint.json './spec/*.ts'",
+    "pretty": "prettier --no-config './spec/*.ts' --write",
     "test": "npx jasmine"
   },
   "version": "1.0.0"
