@@ -6,7 +6,7 @@ Selenium-WebDriver end-to-end test automation boilerplate, using TypeScript, ts-
 
 ## Getting Started
 
-git clone git@github.com:e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect.git
-cd selenium-webdriver-typescript-ts-node-jasmine-expect
-npm install
-npm run test
+    	git clone git@github.com:e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect.git
+    	cd selenium-webdriver-typescript-ts-node-jasmine-expect
+    	npm install
+    	npm run test
