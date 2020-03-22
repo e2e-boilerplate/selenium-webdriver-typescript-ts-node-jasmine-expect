@@ -4,22 +4,22 @@
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/issues"
   },
   "dependencies": {
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "selenium-webdriver": "4.0.0-alpha.7"
   },
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. using TypeScript, ts-node, Jasmine and Expect.",
   "devDependencies": {
     "@types/jasmine": "3.5.9",
     "@types/node": "12.12.30",
     "@types/selenium-webdriver": "4.0.9",
-    "chromedriver": "^80.0.1",
+    "chromedriver": "80.0.1",
     "husky": "4.2.3",
     "jasmine": "3.5.0",
     "lint-staged": "10.0.8",
     "prettier": "1.19.1",
     "ts-node": "8.7.0",
-    "tslint": "^5.20.1",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-plugin-prettier": "^2.2.0",
+    "tslint": "5.20.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.2.0",
     "typescript": "3.8.3"
   },
   "homepage": "https://github.com/e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect#readme",
