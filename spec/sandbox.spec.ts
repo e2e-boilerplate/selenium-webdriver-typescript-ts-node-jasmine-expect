@@ -1,5 +1,7 @@
+/* tslint:disable:no-submodule-imports */
 import { Builder, By } from "selenium-webdriver";
-import chrome from "selenium-webdriver/chrome";
+// tslint:disable-next-line:no-var-requires
+const chrome = require("selenium-webdriver/chrome");
 
 import "chromedriver";
 
