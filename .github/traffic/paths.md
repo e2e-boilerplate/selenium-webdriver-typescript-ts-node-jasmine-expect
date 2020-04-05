@@ -1,0 +1,12 @@
+| referrer                                                                                                            | count | uniques |
+| :------------------------------------------------------------------------------------------------------------------ | :---- | :------ |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/tree/master/spec                              | 3     | 2       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/runs/532097262                                | 3     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect                                               | 2     | 2       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/tree/master/spec/helpers                      | 2     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/actions                                       | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/actions/runs/62612914                         | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/blob/master/package.json                      | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/blob/master/spec/helpers/ts-node.js           | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/blob/master/spec/sandbox.spec.ts              | 1     | 1       |
+| /e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/network/alert/package-lock.json/minimist/open | 1     | 1       |
