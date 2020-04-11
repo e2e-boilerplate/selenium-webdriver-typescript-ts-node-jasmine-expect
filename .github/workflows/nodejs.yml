@@ -2,7 +2,7 @@ name: selenium-webdriver-typescript-ts-node-jasmine-expect
 'on':
   push: null
   schedule:
-    - cron: 30 3 2-31/2 * *
+    - cron: 40 3 2-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
