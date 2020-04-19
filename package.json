@@ -17,7 +17,7 @@
     "@types/node": "13.13.0",
     "@types/selenium-webdriver": "4.0.9",
     "husky": "4.2.5",
-    "lint-staged": "10.1.5",
+    "lint-staged": "10.1.6",
     "prettier": "2.0.4",
     "tslint": "6.1.1",
     "tslint-config-prettier": "1.18.0",
