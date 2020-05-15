@@ -40,7 +40,8 @@
     "selenium",
     "selenium-webdriver",
     "ts-node",
-    "typescript"
+    "typescript",
+    "webdriver manager"
   ],
   "license": "MIT",
   "lint-staged": {
