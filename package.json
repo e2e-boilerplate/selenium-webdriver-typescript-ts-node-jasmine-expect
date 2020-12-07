@@ -6,7 +6,7 @@
   "dependencies": {
     "chromedriver": "87.0.2",
     "jasmine": "3.6.3",
-    "selenium-webdriver": "4.0.0-alpha.7",
+    "selenium-webdriver": "4.0.0-alpha.8",
     "ts-node": "9.1.0",
     "typescript": "4.1.2",
     "webdriver-manager": "12.1.7"
