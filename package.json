@@ -6,7 +6,7 @@
   "dependencies": {
     "chromedriver": "90.0.0",
     "jasmine": "3.7.0",
-    "selenium-webdriver": "4.0.0-beta.1",
+    "selenium-webdriver": "4.0.0-beta.3",
     "ts-node": "9.1.1",
     "typescript": "4.2.4",
     "webdriver-manager": "12.1.8"
@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/jasmine": "3.6.9",
     "@types/node": "13.13.50",
-    "@types/selenium-webdriver": "4.0.11",
+    "@types/selenium-webdriver": "4.0.12",
     "husky": "6.0.0",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1",
