@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-typescript-ts-node-jasmine-expect/issues"
   },
   "dependencies": {
-    "chromedriver": "90.0.0",
+    "chromedriver": "90.0.1",
     "jasmine": "3.7.0",
     "selenium-webdriver": "4.0.0-beta.3",
     "ts-node": "9.1.1",
