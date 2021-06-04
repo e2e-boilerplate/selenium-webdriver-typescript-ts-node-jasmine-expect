@@ -13,7 +13,7 @@
   },
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. Using TypeScript, ts-node, Jasmine and Expect.",
   "devDependencies": {
-    "@types/jasmine": "3.7.6",
+    "@types/jasmine": "3.7.7",
     "@types/node": "13.13.52",
     "@types/selenium-webdriver": "4.0.13",
     "husky": "6.0.0",
