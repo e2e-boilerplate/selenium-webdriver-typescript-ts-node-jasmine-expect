@@ -8,7 +8,7 @@
     "jasmine": "3.7.0",
     "selenium-webdriver": "4.0.0-beta.4",
     "ts-node": "9.1.1",
-    "typescript": "4.3.2",
+    "typescript": "4.3.3",
     "webdriver-manager": "12.1.8"
   },
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. Using TypeScript, ts-node, Jasmine and Expect.",
